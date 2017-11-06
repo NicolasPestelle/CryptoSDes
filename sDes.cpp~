@@ -1,0 +1,15 @@
+#include <iostream>
+#include <fstream>
+#include <bitset>
+#include <string>
+#include <iostream>
+
+using namespace std; 
+int main(int argc, char **argv){
+
+  //on vas lire le texte et appliqué le td pour chaque caractere
+  const bitset<8> b { 0b101010 };
+
+  cout << b < endl;
+  
+}
